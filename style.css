@@ -301,7 +301,7 @@ header,.sticky .header-bottom{
 	height: 650px;
 }
 .parallax .textwidget{
-	padding-top: 200px;
+	padding-top: 240px;
 	max-width: 450px;
 	margin-left: auto;
 }
@@ -503,7 +503,31 @@ header,.sticky .header-bottom{
 /********************************************************
     ## Home
 ********************************************************/
-.half-width{
+.home-gallery ul {
+	list-style: none;
+	padding: 0 7px;
+	margin: 0;
+}
+.home-gallery ul li {
+	width: 50%;
+	display: inline-block;
+	float: left;
+	padding: 0 3px 6px;
+}
+.home-gallery ul li:nth-child(3n+3) {
+	width: 47.2%;
+}
+.home-gallery ul li:nth-child(4n+4) ,.home-gallery ul li:nth-child(5n+5) {
+	width: 52.8%;
+}
+.home-gallery ul li:nth-child(7n+7),.home-gallery ul li:nth-child(8n+8) {
+	width: 52.8%;
+}
+.home-gallery ul li:nth-child(6n+6) {
+	width: 47.2%;
+	float: right;
+}
+.half-width,.home-gallery ul li:nth-child(9n+9),.home-gallery ul li:nth-child(10n+10){
 	width: 50%;
 }
 .fixed-image{
@@ -588,6 +612,12 @@ header,.sticky .header-bottom{
 /********************************************************
     ## Menu
 ********************************************************/
+.menu-page-sample{
+	padding: 50px !important;
+}
+.menu-padding-fix {
+	margin: 0 -10px;
+}
 .tabs-list-details ul{
 	overflow: hidden;
 	list-style: none;
@@ -595,9 +625,8 @@ header,.sticky .header-bottom{
 .tabs-list-details li{
 	width: 33%;
 	float: left;
-	line-height: 35px;
 	letter-spacing: 1px;
-	padding: 0 15px;
+	padding: 10px 15px;
 }
 .tabs-list .nav-tabs{
 	border: 0;
