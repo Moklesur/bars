@@ -27,7 +27,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-3 col-sm-3 col-xs-12 phone">
-						<a href="tel:+12102231285"><i class="fa fa-phone"></i> <span class="position-relative">210-223-1285</span></a>
+						<a href="tel:2102231285"><i class="fa fa-phone"></i> <span class="position-relative">210-223-1285</span></a>
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-12 text-center">
 						<div class="logo">
